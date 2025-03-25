@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pubmed-fetcher" 
+version = "0.1.0"
+description = "Fetches PubMed papers with non-academic authors"
+authors = ["Suraj Kumar Yadav <suraj.mails99@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"  
+requests = "^2.32.3"  
+pandas = "^2.2.3"
+biopython = "^1.85"
+
+[tool.poetry.scripts]
+get-papers-list = "pubmed_fetcher.cli:main" 
+
+[build-system]
+requires = ["poetry-core"] 
+build-backend = "poetry.core.masonry.api"

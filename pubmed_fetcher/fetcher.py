@@ -3,7 +3,7 @@ import requests
 from Bio import Entrez
 import pandas as pd
 
-Entrez.email = "sk.mails99@gmail.com"  # Your email
+Entrez.email = "put your email here"
 
 
 def fetch_pubmed_papers(query: str, max_results: int = 100) -> List[Dict]:

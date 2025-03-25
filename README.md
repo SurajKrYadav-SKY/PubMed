@@ -19,8 +19,6 @@ To set up the project on your system, follow these steps:
    cd pubmed-fetcher
    ```
 
-````
-
 Replace `<repository-url>` with the GitHub URL once you host it.
 
 2. **Install Python**:
@@ -188,4 +186,7 @@ The "Step-by-Step Instructions to Test on Your System" section in the `README.md
 5. Test with commands like `poetry.exe run get-papers-list "cancer therapy" -f output.csv -d`.
 
 ---
-````
+
+```
+
+```

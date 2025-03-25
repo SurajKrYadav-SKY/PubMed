@@ -139,19 +139,14 @@ The program is run via the `get-papers-list` command using Poetry. It accepts a 
 - The program identifies pharma/biotech affiliations using a keyword list (e.g., "Pfizer", "Novartis", "Pharma"). Modify `pharma_keywords` in `fetcher.py` to refine this.
 - Corresponding author emails are set to "N/A" as they’re not reliably available via PubMed’s API.
 
-````
-
----
-
 ### How to Add This to Your Project
 
 1. **Create the `README.md` File**:
    In your project directory (`~/Python/Assignment`):
+
    ```bash
    touch README.md
    ```
-
-````
 
 2. **Copy the Content**:
 
@@ -186,7 +181,3 @@ The "Step-by-Step Instructions to Test on Your System" section in the `README.md
 5. Test with commands like `poetry.exe run get-papers-list "cancer therapy" -f output.csv -d`.
 
 ---
-
-```
-
-```
